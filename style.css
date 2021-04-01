@@ -1,0 +1,16 @@
+/*---------------------------
+ basic
+/-----------------------------*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*---------------------------
+ hover_moving_effect
+/-----------------------------*/
+.hover_moving_effect {
+    display: block;
+    position: relative;
+    transition: all .5s cubic-bezier(.52, 1.64, .37, .66);
+}
